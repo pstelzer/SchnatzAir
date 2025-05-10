@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Schnatz Airlines</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fdf6e3;
+      color: #333;
+    }
+    header {
+      background: #ffcc00;
+      color: #000;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 60px;
+      vertical-align: middle;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: #fff;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    nav a:hover {
+      background: #555;
+    }
+    section.hero {
+      background: url('images/hero_background.png') no-repeat center center/cover;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    section.content {
+      padding: 40px 20px;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-around;
+    }
+    .feature {
+      flex: 1 1 300px;
+      background: white;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .feature img {
+      width: 100%;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/schnatz_logo.png" alt="Schnatz Logo" />
+    <h1>Schnatz Airlines</h1>
+    <p>Catch the Golden Standard of Air Travel</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#book">Book Now</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section class="hero">
+    <h2>Fly the Extraordinary</h2>
+    <p>Where broomsticks meet business class.</p>
+  </section>
+  <section id="about" class="content">
+    <h2>About Schnatz Airlines</h2>
+    <p>Schnatz Airlines is the premier wizard-inspired airline, combining luxury with a touch of magic. From our cloakroom concierge to our legendary Butterbeer service, your journey begins the moment you board.</p>
+  </section>
+  <section id="features" class="content">
+    <h2>Why Choose Us?</h2>
+    <div class="features">
+      <div class="feature">
+        <img src="images/cockpit.png" alt="Cockpit" />
+        <h3>Wizard-like Precision</h3>
+        <p>Our pilots fly with charm and precision. Literally.</p>
+      </div>
+      <div class="feature">
+        <img src="images/cloakroom.png" alt="Cloakroom" />
+        <h3>Cloakroom Service</h3>
+        <p>Yes, we mean actual cloaks. Style your arrival.</p>
+      </div>
+      <div class="feature">
+        <img src="images/butterbeer.png" alt="Butterbeer" />
+        <h3>Butterbeer Onboard</h3>
+        <p>Enjoy signature Butterbeer beverages on every flight.</p>
+      </div>
+      <div class="feature">
+        <img src="images/lounges.png" alt="Lounge" />
+        <h3>Golden Lounges</h3>
+        <p>Relax before your flight in enchanted luxury lounges.</p>
+      </div>
+    </div>
+  </section>
+  <section id="book" class="content">
+    <h2>Book Your Flight</h2>
+    <p>Reserve now and receive your complimentary "Golden Schnatz" travel pin!</p>
+    <button style="padding: 10px 20px; font-size: 1.2em; background: #ffcc00; border: none; cursor: pointer;">Book Now</button>
+  </section>
+  <section id="contact" class="content">
+    <h2>Contact Us</h2>
+    <p>Email: soar@schnatzair.com<br>Phone: 1-800-GOLDEN-SNITCH</p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Schnatz Airlines. All rights reserved.</p>
+  </footer>
+</body>
+</html>
